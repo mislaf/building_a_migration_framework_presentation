@@ -1,0 +1,11 @@
+INTRO
+1. Sescribe: iMonitor, iBuilder, iVantage NMS and SM
+2. Describe Pulse
+3. Explain problem of migration and requirments
+4. Explain where gmt fits in
+
+FRAMEWORK
+Focus on: Concept, state machine, technology  anything what it interesting for listeners
+
+DEMO
+Short demo
