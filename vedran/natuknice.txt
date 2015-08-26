@@ -1,13 +1,16 @@
 - Framework
 	- Workflow
+		- state machine - state machine is any device that stores the status of something at a given time and can operate on input to change the status and/or cause an action or output to take place for any given change
 		- kreće od početnog state-a
 		- ovisno o uvjetima napreduje po stateovima sve dok ne dođe do zadnjeg state-a
 	- Plugins
+		- klasa koja loada pluggable
 		- svaki state iz workflowa je zamišljen kao plugin
 	- Pluggables
 		- modul omogućuje da sve module iz nekog foldera automatski loadamo kao pluginove te da ih izvršavamo jednog po jednog pri čemu svaki odrađuje specifičan zadatak
 		- redosljed
 		- flags
+		- accessori
 
 - Konfiguracije
 	- user config
@@ -20,3 +23,4 @@
 		- apply_changes, option_files i alias
 
 - Templates
+	- primjer
