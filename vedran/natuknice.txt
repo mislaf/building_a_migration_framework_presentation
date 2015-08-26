@@ -1,0 +1,22 @@
+- Framework
+	- Workflow
+		- kreće od početnog state-a
+		- ovisno o uvjetima napreduje po stateovima sve dok ne dođe do zadnjeg state-a
+	- Plugins
+		- svaki state iz workflowa je zamišljen kao plugin
+	- Pluggables
+		- modul omogućuje da sve module iz nekog foldera automatski loadamo kao pluginove te da ih izvršavamo jednog po jednog pri čemu svaki odrađuje specifičan zadatak
+		- redosljed
+		- flags
+
+- Konfiguracije
+	- user config
+		- sadrži informacije za spajanje na iVantage i Pulse NMS te opcije kao što su mreže za koje ćemo seliti podatke i slično
+	- workflow
+		- sadrži informacije o samom workflowu kao i o stateovima kroz koje prolazimo
+	- flow control
+		- definira sve pluggable koje smo kreirali te im postavlja redosljed izvođenja kao i neke opcije poput force, stop i skip
+	- phase control
+		- apply_changes, option_files i alias
+
+- Templates
